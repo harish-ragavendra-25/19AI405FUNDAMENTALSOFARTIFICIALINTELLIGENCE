@@ -54,8 +54,8 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
 <h1>program:</h1>
+
 ```
-'''Depth First Search uses STACK AND RECURSION'''
 
 #import defaultdict
 from collections import defaultdict
@@ -79,8 +79,8 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-
 ```
+
 <hr>
 <h3>Sample Input</h3>
 <hr>
